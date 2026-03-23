@@ -93,7 +93,7 @@ try {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 <body>
     <div class="container">
@@ -170,6 +170,6 @@ try {
         </footer>
     </div>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=1.1"></script>
 </body>
 </html>
