@@ -153,6 +153,15 @@ try {
             </div>
         </section>
 
+        <!-- New Testing Links Section -->
+        <section class="card testing-links">
+            <h2>🛠️ Verification Tools</h2>
+            <div class="btn-group">
+                <a href="test.php" target="_blank" class="btn btn-secondary">Check PHP Info</a>
+                <a href="fetch.php" target="_blank" class="btn btn-secondary">Check JSON API</a>
+            </div>
+        </section>
+
         <footer>
             <p>HauMonsters &copy; <?php echo date('Y'); ?> — Powered by NGINX · PHP · MySQL</p>
         </footer>

@@ -23,13 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     async function refreshPlayers() {
         try {
-            const res = await fetch('index.php?api=players', {
+            const res = await fetch('fetch.php', {
                 headers: { 'Accept': 'application/json' }
             });
-            const data = await res.json();
+            const players = await res.json();
 
-            if (data.success) {
-                renderPlayers(data.players);
+            if (Array.isArray(players)) {
+                renderPlayers(players);
             }
         } catch (err) {
             console.error('Failed to refresh players:', err);
