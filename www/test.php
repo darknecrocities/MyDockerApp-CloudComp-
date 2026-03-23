@@ -59,19 +59,25 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Diagnostics — HauMonsters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #0f0f1a;
-            --card: #16213e;
-            --text: #eaeaea;
-            --accent: #e94560;
-            --pass: #2ecc71;
-            --fail: #e74c3c;
+            --bg: #030308;
+            --card: rgba(22, 22, 38, 0.7);
+            --text: #ffffff;
+            --accent: #ff416c;
+            --pass: #00f2fe;
+            --fail: #ff4d4d;
             --info: #3498db;
         }
         body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-family: 'Outfit', -apple-system, sans-serif;
             background: var(--bg);
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(255, 65, 108, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(30, 60, 200, 0.1) 0%, transparent 40%);
             color: var(--text);
             display: flex;
             justify-content: center;
